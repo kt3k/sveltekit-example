@@ -22,5 +22,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: kt3k-svelte-example
-          entrypoint: index.js
+          entrypoint: mod.ts
           root: build
